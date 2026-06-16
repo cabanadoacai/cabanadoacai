@@ -403,4 +403,4 @@ mensagem += `• ${item.quantidade}x ${item.nome} — R$ ${subtotal.toFixed(2).r
 
   localStorage.removeItem('carrinho');
   window.open(url, '_blank');
-}
+  }
