@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Carrinho</title>
+
+  <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <img src="imagens/logo.png"
+         alt="Logo">
+
+  </header>
+
+  <section class="pagina-produtos">
+
+    <button class="voltar"
+            onclick="window.location.href='index.html'">
+
+      ← Voltar
+
+    </button>on>on>
+
+    <h1>Seu Pedido</h1>
+
+    <div id="itensCarrinho">
+
+      <p>Seu carrinho está vazio.</p>
+
+    </div>
+
+    <div class="produto">
+
+      <h2>Total:</h2>
+
+      <p id="totalPedido">
+
+        R$ 0,00
+
+      </p>
+
+    </div>
+
+    <h2>Seus Dados</h2>
+
+    <input type="text"
+           id="nome"
+           placeholder="Seu nome">
+
+    <input type="text"
+           id="endereco"
+           placeholder="Seu endereço">
+
+    <select id="pagamento">
+
+      <option value="">
+
+        Forma de pagamento
+
+      </option>
+
+      <option value="Pix">
+
+        Pix
+
+      </option>
+
+      <option value="Cartão">
+
+        Cartão
+
+      </option>
+
+      <option value="Dinheiro">
+
+        Dinheiro
+
+      </option>
+
+    </select>
+
+    <div class="acoes">
+
+      <button class="continuar"
+              onclick="window.location.href='index.html'">
+
+        Continuar Comprando
+
+      </button>on>on>
+
+      <button class="finalizar"
+              onclick="enviarPedido()">
+
+        Enviar Pedido
+
+      </button>on>on>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

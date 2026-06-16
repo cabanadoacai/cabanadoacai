@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Barcas</title>
+
+  <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <img src="imagens/logo.png"
+         alt="Logo">
+
+  </header>
+
+  <section class="pagina-produtos">
+
+    <button class="voltar"
+            onclick="window.location.href='index.html'">
+
+      ← Voltar
+
+    </button>on>on>
+
+    <h1>Barcas</h1>
+
+    <div class="produto">
+
+      <h2 onclick="abrirBarca()">
+
+        Monte do Seu Jeito
+
+      </h2>
+
+      <p>R$ 18,00</p>
+      
+      <div class="quantidade">
+
+  <button onclick="diminuirBarca()">
+
+    -
+
+  </button>on>on>
+
+  <span id="qtdBarca">
+
+    0
+
+  </span>
+
+  <button onclick="aumentarBarca()">
+
+    +
+
+  </button>on>on>
+
+</div>
+
+    </div>
+
+    <div id="opcoesBarca" class="opcoes">
+
+      <h3>Complementos</h3>
+
+      <label>
+        <input type="checkbox">
+        Leite em pó
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Granola
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Farinha de Paçoca
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Sucrilhos
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Chocobol
+      </label>
+
+      <h3>Turbine sua Barca</h3>
+
+      <label>
+        <input type="checkbox">
+        Creme de Leitinho R$ 2,50
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Creme de Avelã R$ 2,50
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Creme de Coco R$ 2,50
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Mousse de Morango R$ 2,50
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Mousse de Maracujá R$ 2,50
+      </label>
+
+      <h3>Frutas</h3>
+
+      <label>
+        <input type="checkbox">
+        Banana
+      </label>
+
+      <label>
+        <input type="checkbox">
+        Morango R$ 2,00
+      </label>
+
+      <h3>Caldas</h3>
+
+      <label>
+        <input type="checkbox">
+        Leite Condensado
+      </label>
+
+    </div>
+
+    <div class="acoes">
+
+      <button class="continuar"
+              onclick="window.location.href='index.html'">
+
+        Continuar Comprando
+
+      </button>on>on>
+
+      <button class="finalizar">
+
+        Finalizar Pedido
+
+      </button>on>on>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
